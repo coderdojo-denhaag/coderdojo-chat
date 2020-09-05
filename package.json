@@ -1,0 +1,23 @@
+{
+  "name": "coderdojo-chatserver",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "Chatserver voor CoderDojo Den Haag",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sander-/coderdojochat.git"
+  },
+  "author": "CoderDojo Den Haag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sander-/coderdojochat/issues"
+  },
+  "homepage": "https://github.com/sander-/coderdojochat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}

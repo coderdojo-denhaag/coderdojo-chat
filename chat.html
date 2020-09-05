@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"
+        integrity="sha256-bQmrZe4yPnQrLTY+1gYylfNMBuGfnT/HKsCGX+9Xuqo=" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="connect">
+        <input type="text" id="naam"></input>
+        <button class="button" id="verbind">Maak verbinding</button>
+    </div>
+    <div class="chatpanel">
+        <div id="chat"></div>
+    </div>
+    <div class="onlinepanel">
+        <div id="online"></div>
+    </div>
+    <div class="messagepanel">
+        <form>
+            <input type="text" id="bericht">
+            <input type="submit" value="Verstuur bericht" id="verstuur"  class="button" />
+        </form>
+    </div>    
+
+    <script src="chat.js"></script>
+</body>
+
+</html>

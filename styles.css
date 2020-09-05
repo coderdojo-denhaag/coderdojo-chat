@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap');
+
+body {
+    background-color: #839496;
+    font-family: 'Grandstander', cursive;
+}
+
+*::-webkit-scrollbar {
+    width: 1em;
+}
+
+*::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+.connect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: solid 1px #859900;
+    padding: 20px;
+    background-color: #586e75;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #268bd2;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #268bd2;
+}
+
+.button:hover {
+    border: 1px solid #586e75;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.onlinepanel {
+    float: right;
+    width: calc(20% - 1px);
+    background-color: #374549;
+    border-left: 1px solid #fff;
+    color: #fff
+}
+
+.onlinepanel div {
+    margin: 10px;
+    line-height: 26px;
+}
+
+.onlinepanel img {
+    max-height: 35px;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+.chatpanel {
+    float: left;
+    min-height: 200px;
+    width: 80%;
+    background-color: #374549;
+    color: #a5d1dd;
+    max-height: 90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: 5px;
+}
+
+.chatpanel div {
+    margin: 10px;
+    line-height: 26px;
+}
+
+.messagepanel {
+    position: absolute;
+    width: 80%;
+    bottom: 10px;
+}
+
+.messagepanel input[type=text] {
+    width: 80%;
+}
